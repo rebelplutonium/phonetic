@@ -272,107 +272,107 @@ do
 		true
 	    ;;	
 	'a')
-	    echo 'ant' &&
+	    echo 'amsterdam' &&
 		true
 	    ;;
 	'b')
-	    echo 'bat' &&
+	    echo 'baltimore' &&
 		true
 	    ;;
 	'c')
-	    echo 'cat' &&
+	    echo 'casablanca' &&
 		true
 	    ;;
 	'd')
-	    echo 'dog' &&
+	    echo 'danemark' &&
 		true
 	    ;;
 	'e')
-	    echo 'emu' &&
+	    echo 'edison' &&
 		true
 	    ;;
 	'f')
-	    echo 'fly' &&
+	    echo 'florida' &&
 		true
 	    ;;
 	'g')
-	    echo 'gar' &&
+	    echo 'gallipoli' &&
 		true
 	    ;;
 	'h')
-	    echo 'hare' &&
+	    echo 'havana' &&
 		true
 	    ;;
 	'i')
-	    echo 'ibis' &&
+	    echo 'italia' &&
 		true
 	    ;;
 	'j')
-	    echo 'jackal' &&
+	    echo 'jerusalem' &&
 		true
 	    ;;
 	'k')
-	    echo 'kiwi' &&
+	    echo 'kilogramme' &&
 		true
 	    ;;
 	'l')
-	    echo 'lion' &&
+	    echo 'liverpool' &&
 		true
 	    ;;
 	'm')
-	    echo 'mole' &&
+	    echo 'madagascar' &&
 		true
 	    ;;
 	'n')
-	    echo 'newt' &&
+	    echo 'newyork' &&
 		true
 	    ;;
 	'o')
-	    echo 'olm' &&
+	    echo 'oslo' &&
 		true
 	    ;;
 	'p')
-	    echo 'pig' &&
+	    echo 'paris' &&
 		true
 	    ;;
 	'q')
-	    echo 'quail' &&
+	    echo 'queen' &&
 		true
 	    ;;
 	'r')
-	    echo 'rat' &&
+	    echo 'roma' &&
 		true
 	    ;;
 	's')
-	    echo 'swan' &&
+	    echo 'santiago' &&
 		true
 	    ;;
 	't')
-	    echo 'tiger' &&
+	    echo 'tripoli' &&
 		true
 	    ;;
 	'u')
-	    echo 'upapa' &&
+	    echo 'upsala' &&
 		true
 	    ;;
 	'v')
-	    echo 'viper' &&
+	    echo 'valencia' &&
 		true
 	    ;;
 	'w')
-	    echo 'wasp' &&
+	    echo 'washington' &&
 		true
 	    ;;
 	'x')
-	    echo 'xolo' &&
+	    echo 'xanthippe' &&
 		true
 	    ;;
 	'y')
-	    echo 'yak' &&
+	    echo 'yokoama' &&
 		true
 	    ;;
 	'z')
-	    echo 'zebra' &&
+	    echo 'zurich' &&
 		true
 	    ;;
 	*)
