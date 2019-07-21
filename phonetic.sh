@@ -4,379 +4,383 @@ tee | fold -w1 | while read CHARACTER
 do
     case ${CHARACTER} in
 	'!')
-	    echo 'Bang' &&
+	    echo 'Bang(!)' &&
 		true
 	    ;;
-	'@')
-	    echo 'At' &&
+	"@")
+	    echo "At(${CHARACTER})" &&
 		true
 	    ;;
-	'#')
-	    echo 'Pound' &&
+	"#")
+	    echo "Pound(${CHARACTER})" &&
 		true
 	    ;;
-	'\$')
-	    echo 'Dollar' &&
+	"\$")
+	    echo "Dollar(${CHARACTER})" &&
 		true
 	    ;;
-	'%')
-	    echo 'Percent' &&
+	"%")
+	    echo "Percent(${CHARACTER})" &&
 		true
 	    ;;
-	'^')
-	    echo 'Caret' &&
+	"^")
+	    echo "Caret(${CHARACTER})" &&
 		true
 	    ;;
-	'&')
-	    echo 'Ampersand' &&
+	"&")
+	    echo "Ampersand(${CHARACTER})" &&
 		true
 	    ;;
-	'*')
-	    echo 'Asterisk' &&
+	"*")
+	    echo "Asterisk(${CHARACTER})" &&
 		true
 	    ;;
 	'(')
-	    echo 'OpenRoundBracket' &&
+	    echo "OpenRoundBracket[${CHARACTER}]" &&
 		true
 	    ;;
-	')')
-	    echo 'CloseRoundBracket' &&
+	")")
+	    echo "CloseRoundBracket[${CHARACTER}]" &&
 		true
 	    ;;
-	'-')
-	    echo 'Minus' &&
+	"-")
+	    echo "Minus(${CHARACTER})" &&
 		true
 	    ;;
-	'=')
-	    echo 'Equals' &&
+	"=")
+	    echo "Equals(${CHARACTER})" &&
 		true
 	    ;;
-	'[')
-	    echo 'OpenSquareBracket' &&
+	"[")
+	    echo "OpenSquareBracket(${CHARACTER})" &&
 		true
 	    ;;
-	']')
-	    echo 'CloseSquareBracket' &&
+	"]")
+	    echo "CloseSquareBracket(${CHARACTER})" &&
 		true
 	    ;;
-	'\\')
-	    echo 'BackwardSlash' &&
+	"\\")
+	    echo "BackwardSlash(${CHARACTER})" &&
 		true
 	    ;;
-	';')
-	    echo 'SemiColon' &&
+	";")
+	    echo "SemiColon(${CHARACTER})" &&
 		true
 	    ;;
-	"'")
-	    echo 'SingleQuote' &&
+	"\'")
+	    echo "SingleQuote(${CHARACTER})" &&
 		true
 	    ;;
-	',')
-	    echo 'Comma' &&
+	",")
+	    echo "Comma(${CHARACTER})" &&
 		true
 	    ;;
-	'.')
-	    echo 'Period' &&
+	".")
+	    echo "Period(${CHARACTER})" &&
 		true
 	    ;;
-	'/')
-	    echo 'ForwardSlash' &&
+	"/")
+	    echo "ForwardSlash(${CHARACTER})" &&
 		true
 	    ;;
-	'_')
-	    echo 'UnderScore' &&
+	"_")
+	    echo "UnderScore(${CHARACTER})" &&
 		true
 	    ;;
-	'+')
-	    echo 'Plus' &&
+	"+")
+	    echo "Plus(${CHARACTER})" &&
 		true
 	    ;;
-	'{')
-	    echo 'OpenCurlyBracket' &&
+	"{")
+	    echo "OpenCurlyBracket(${CHARACTER})" &&
 		true
 	    ;;
-	'}')
-	    echo 'CloseCurlyBracket' &&
+	"}")
+	    echo "CloseCurlyBracket(${CHARACTER})" &&
 		true
 	    ;;
-	'|')
-	    echo 'Pipe' &&
+	"|")
+	    echo "Pipe(${CHARACTER})" &&
 		true
 	    ;;
-	':')
-	    echo 'Colon' &&
+	":")
+	    echo "Colon(${CHARACTER})" &&
 		true
 	    ;;
 	"\"")
-	    echo "DoubleQuote" &&
+	    echo "DoubleQuote(${CHARACTER})" &&
 		true
 	    ;;
-	'<')
-	    echo 'LessThan' &&
+	"<")
+	    echo "LessThan(${CHARACTER})" &&
 		true
 	    ;;
-	'>')
-	    echo 'GreaterThan' &&
+	">")
+	    echo "GreaterThan(${CHARACTER})" &&
 		true
 	    ;;
-	'?')
-	    echo 'QuestionMark' &&
+	"?")
+	    echo "QuestionMark(${CHARACTER})" &&
 		true
 	    ;;
 	'`')
-	    echo 'Grave' &&
+	    echo "Grave(${CHARACTER})" &&
 		true
 	    ;;
-	'~')
-	    echo 'Tilde' &&
+	"~")
+	    echo "Tilde(${CHARACTER})" &&
 		true
 	    ;;
-	'1')
-	    echo 'One' &&
+	"1")
+	    echo "One(${CHARACTER})" &&
 		true
 	    ;;
-	'2')
-	    echo 'Two' &&
+	"2")
+	    echo "Two(${CHARACTER})" &&
 		true
 	    ;;
-	'3')
-	    echo 'Three' &&
+	"3")
+	    echo "Three(${CHARACTER})" &&
 		true
 	    ;;
-	'4')
-	    echo 'Four' &&
+	"4")
+	    echo "Four(${CHARACTER})" &&
 		true
 	    ;;
-	'5')
-	    echo 'Five' &&
+	"5")
+	    echo "Five(${CHARACTER})" &&
 		true
 	    ;;
-	'6')
-	    echo 'Six' &&
+	"6")
+	    echo "Six(${CHARACTER})" &&
 		true
 	    ;;
-	'7')
-	    echo 'Seven' &&
+	"7")
+	    echo "Seven(${CHARACTER})" &&
 		true
 	    ;;
-	'8')
-	    echo 'Eight' &&
+	"8")
+	    echo "Eight(${CHARACTER})" &&
 		true
 	    ;;
-	'9')
-	    echo 'Nine' &&
+	"9")
+	    echo "Nine(${CHARACTER})" &&
 		true
 	    ;;
-	'A')
-	    echo 'ALPHA' &&
+	"0")
+	    echo "Zero(${CHARACTER})" &&
 		true
 	    ;;
-	'B')
-	    echo 'BRAVO' &&
+	"A")
+	    echo "ALPHA(${CHARACTER})" &&
 		true
 	    ;;
-	'C')
-	    echo 'CHARLIE' &&
+	"B")
+	    echo "BRAVO(${CHARACTER})" &&
 		true
 	    ;;
-	'D')
-	    echo 'DELTA' &&
+	"C")
+	    echo "CHARLIE(${CHARACTER})" &&
 		true
 	    ;;
-	'E')
-	    echo 'ECHO' &&
+	"D")
+	    echo "DELTA(${CHARACTER})" &&
 		true
 	    ;;
-	'F')
-	    echo 'FOXTROT' &&
+	"E")
+	    echo "ECHO(${CHARACTER})" &&
 		true
 	    ;;
-	'G')
-	    echo 'GOLF' &&
+	"F")
+	    echo "FOXTROT(${CHARACTER})" &&
 		true
 	    ;;
-	'H')
-	    echo 'HOTEL' &&
+	"G")
+	    echo "GOLF(${CHARACTER})" &&
 		true
 	    ;;
-	'I')
-	    echo 'INDIA' &&
+	"H")
+	    echo "HOTEL(${CHARACTER})" &&
 		true
 	    ;;
-	'J')
-	    echo 'JULIET' &&
+	"I")
+	    echo "INDIA(${CHARACTER})" &&
 		true
 	    ;;
-	'K')
-	    echo 'KILO' &&
+	"J")
+	    echo "JULIET(${CHARACTER})" &&
 		true
 	    ;;
-	'L')
-	    echo 'LIMA' &&
+	"K")
+	    echo "KILO(${CHARACTER})" &&
 		true
 	    ;;
-	'M')
-	    echo 'MIKE' &&
+	"L")
+	    echo "LIMA(${CHARACTER})" &&
 		true
 	    ;;
-	'N')
-	    echo 'NOVEMBER' &&
+	"M")
+	    echo "MIKE(${CHARACTER})" &&
 		true
 	    ;;
-	'O')
-	    echo 'OSCAR' &&
+	"N")
+	    echo "NOVEMBER(${CHARACTER})" &&
 		true
 	    ;;
-	'P')
-	    echo 'PAPA' &&
+	"O")
+	    echo "OSCAR(${CHARACTER})" &&
 		true
 	    ;;
-	'Q')
-	    echo 'QUEBEC' &&
+	"P")
+	    echo "PAPA(${CHARACTER})" &&
 		true
 	    ;;
-	'R')
-	    echo 'ROMEO' &&
+	"Q")
+	    echo "QUEBEC(${CHARACTER})" &&
 		true
 	    ;;
-	'S')
-	    echo 'SIERRA' &&
+	"R")
+	    echo "ROMEO(${CHARACTER})" &&
 		true
 	    ;;
-	'T')
-	    echo 'TANGO' &&
+	"S")
+	    echo "SIERRA(${CHARACTER})" &&
 		true
 	    ;;
-	'U')
-	    echo 'UNIFORM' &&
+	"T")
+	    echo "TANGO(${CHARACTER})" &&
 		true
 	    ;;
-	'V')
-	    echo 'VICTOR' &&
+	"U")
+	    echo "UNIFORM(${CHARACTER})" &&
 		true
 	    ;;
-	'W')
-	    echo 'WHISKEY' &&
+	"V")
+	    echo "VICTOR(${CHARACTER})" &&
 		true
 	    ;;
-	'X')
-	    echo 'XRAY' &&
+	"W")
+	    echo "WHISKEY(${CHARACTER})" &&
 		true
 	    ;;
-	'Y')
-	    echo 'YANKEE' &&
+	"X")
+	    echo "XRAY(${CHARACTER})" &&
 		true
 	    ;;
-	'Z')
-	    echo 'ZULU' &&
+	"Y")
+	    echo "YANKEE(${CHARACTER})" &&
+		true
+	    ;;
+	"Z")
+	    echo "ZULU(${CHARACTER})" &&
 		true
 	    ;;	
-	'a')
-	    echo 'ant' &&
+	"a")
+	    echo "ant(${CHARACTER})" &&
 		true
 	    ;;
-	'b')
-	    echo 'bat' &&
+	"b")
+	    echo "bat(${CHARACTER})" &&
 		true
 	    ;;
-	'c')
-	    echo 'cat' &&
+	"c")
+	    echo "cat(${CHARACTER})" &&
 		true
 	    ;;
-	'd')
-	    echo 'dog' &&
+	"d")
+	    echo "dog(${CHARACTER})" &&
 		true
 	    ;;
-	'e')
-	    echo 'emu' &&
+	"e")
+	    echo "emu(${CHARACTER})" &&
 		true
 	    ;;
-	'f')
-	    echo 'fly' &&
+	"f")
+	    echo "fly(${CHARACTER})" &&
 		true
 	    ;;
-	'g')
-	    echo 'gar' &&
+	"g")
+	    echo "gar(${CHARACTER})" &&
 		true
 	    ;;
-	'h')
-	    echo 'hare' &&
+	"h")
+	    echo "hare(${CHARACTER})" &&
 		true
 	    ;;
-	'i')
-	    echo 'ibis' &&
+	"i")
+	    echo "ibis(${CHARACTER})" &&
 		true
 	    ;;
-	'j')
-	    echo 'jackal' &&
+	"j")
+	    echo "jackal(${CHARACTER})" &&
 		true
 	    ;;
-	'k')
-	    echo 'kiwi' &&
+	"k")
+	    echo "kiwi(${CHARACTER})" &&
 		true
 	    ;;
-	'l')
-	    echo 'lion' &&
+	"l")
+	    echo "lion(${CHARACTER})" &&
 		true
 	    ;;
-	'm')
-	    echo 'mole' &&
+	"m")
+	    echo "mole(${CHARACTER})" &&
 		true
 	    ;;
-	'n')
-	    echo 'newt' &&
+	"n")
+	    echo "newt(${CHARACTER})" &&
 		true
 	    ;;
-	'o')
-	    echo 'olm' &&
+	"o")
+	    echo "olm(${CHARACTER})" &&
 		true
 	    ;;
-	'p')
-	    echo 'pig' &&
+	"p")
+	    echo "pig(${CHARACTER})" &&
 		true
 	    ;;
-	'q')
-	    echo 'quail' &&
+	"q")
+	    echo "quail(${CHARACTER})" &&
 		true
 	    ;;
-	'r')
-	    echo 'rat' &&
+	"r")
+	    echo "rat(${CHARACTER})" &&
 		true
 	    ;;
-	's')
-	    echo 'swan' &&
+	"s")
+	    echo "swan(${CHARACTER})" &&
 		true
 	    ;;
-	't')
-	    echo 'tiger' &&
+	"t")
+	    echo "tiger(${CHARACTER})" &&
 		true
 	    ;;
-	'u')
-	    echo 'upapa' &&
+	"u")
+	    echo "upapa(${CHARACTER})" &&
 		true
 	    ;;
-	'v')
-	    echo 'viper' &&
+	"v")
+	    echo "viper(${CHARACTER})" &&
 		true
 	    ;;
-	'w')
-	    echo 'wasp' &&
+	"w")
+	    echo "wasp(${CHARACTER})" &&
 		true
 	    ;;
-	'x')
-	    echo 'xolo' &&
+	"x")
+	    echo "xolo(${CHARACTER})" &&
 		true
 	    ;;
-	'y')
-	    echo 'yak' &&
+	"y")
+	    echo "yak(${CHARACTER})" &&
 		true
 	    ;;
-	'z')
-	    echo 'zebra' &&
+	"z")
+	    echo "zebra(${CHARACTER})" &&
 		true
 	    ;;
 	*)
-	    echo 'uNKNOWN' &&
+	    echo "uNKNOWN(${CHARACTER})" &&
 		true
 	    ;;
     esac &&
