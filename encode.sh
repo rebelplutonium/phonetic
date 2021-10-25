@@ -1,6 +1,6 @@
 #!/bin/sh
 
-tee | fold -w1 | while read CHARACTER
+tee | fold --width 1 | while read CHARACTER
 do
     case ${CHARACTER} in
 	'!')
@@ -385,6 +385,6 @@ done | while read CHAR
 do
     printf "%-20s" ${CHAR} &&
 	true
-done | fold -w 80 &&
+done | fold -w 60 &&
     echo &&
     true
