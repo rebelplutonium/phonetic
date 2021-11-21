@@ -1,0 +1,93 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1637014545,
+        "narHash": "sha256-26IZAc5yzlD9FlDT54io1oqG/bBoyka+FJk5guaX4x4=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "bba5dcc8e0b20ab664967ad83d24d64cb64ec4f4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "flake-utils_2": {
+      "locked": {
+        "lastModified": 1637014545,
+        "narHash": "sha256-26IZAc5yzlD9FlDT54io1oqG/bBoyka+FJk5guaX4x4=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "bba5dcc8e0b20ab664967ad83d24d64cb64ec4f4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1637605846,
+        "narHash": "sha256-Llelj1pYeAhGLftPxM2ixSgAfdPBAZOnpBZtpvaZ3Xo=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "d00918ccaf7e1532d35db2f1e3d44db3da39b851",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1637605846,
+        "narHash": "sha256-Llelj1pYeAhGLftPxM2ixSgAfdPBAZOnpBZtpvaZ3Xo=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "d00918ccaf7e1532d35db2f1e3d44db3da39b851",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs",
+        "structure-utils": "structure-utils"
+      }
+    },
+    "structure-utils": {
+      "inputs": {
+        "flake-utils": "flake-utils_2",
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1637606256,
+        "narHash": "sha256-tnPQ4ycdRhp/c4HJkfipNlST+vJ2ru8/GjoS+kDncxc=",
+        "owner": "rebelplutonium",
+        "repo": "structure",
+        "rev": "085edb20ed2ea985308305d7298772b0e5913ee7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rebelplutonium",
+        "repo": "structure",
+        "rev": "085edb20ed2ea985308305d7298772b0e5913ee7",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
