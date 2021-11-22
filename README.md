@@ -42,10 +42,28 @@ You can hear "one limo verticalbar casablanca openbracket oslo zero" and type it
 You can use phonetic when transfering data verbally over the phone to reduct confusion.
 You can use phonetic for important passwords when inside a secure facility without internet access.
 
-Useage:
+## Useage:
 
+### Adding it to a flake
 Add ```
 phonetic.url = "github:rebelplutonium/phonetic?${COMMIT_HASH}";
 ```
 where COMMIT_HASH is the hash of the commit you would like to use.
 Then add this package to the flakes packages.
+
+### Using in a script
+
+phonetic has two modes of operation "encode" and "decode".
+The first (and only) argument must be one of those two.
+
+phonetic handles standard input appropriately based on its mode.
+
+```
+echo hello | phonetic encode
+hotel echo limo limo oscar
+```
+and
+```
+echo HOTEL echo limo limo OSCAR | phonetic decode
+hello
+```
